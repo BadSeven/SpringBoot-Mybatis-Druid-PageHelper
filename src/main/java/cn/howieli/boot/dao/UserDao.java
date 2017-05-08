@@ -10,4 +10,6 @@ import cn.howieli.boot.model.User;
 public interface UserDao {
 	public List<User> getUsers();
 	public void updateUser(User user);
+	public void addUser(User user);
+	public void deleteUserById(int id);
 }
